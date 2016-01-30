@@ -39,7 +39,11 @@
     margin: 0 auto;
 }
 
-
+#coach-tab-content{
+	text-align:left;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 #overlay { 
   color:#fff;
   position:absolute;
