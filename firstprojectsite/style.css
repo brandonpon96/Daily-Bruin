@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .button{
 	width: 80%;
 	min-width: 150px;
@@ -13,18 +12,6 @@
 .body-text{
 	text-align:center
 }
-=======
-
-
-.jumbotron{
-	background: url(images/cover.jpg) center;
-	background-repeat: no-repeat;
-	height: 550px;
-}
-
-
->>>>>>> master
-=======
 #myCarousel{
 	height: 550px;
 }
@@ -36,5 +23,3 @@
 	min-width: 150px;
 	max-width: 200px;
 }
-
->>>>>>> origin/introsidebar
