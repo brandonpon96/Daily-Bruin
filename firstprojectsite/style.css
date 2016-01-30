@@ -4,6 +4,14 @@
 	min-width: 150px;
 	max-width: 200px;
 }
+
+.section-title{
+	text-align: center;
+	}
+
+.body-text{
+	text-align:center
+}
 =======
 
 
@@ -12,4 +20,6 @@
 	background-repeat: no-repeat;
 	height: 550px;
 }
+
+
 >>>>>>> master
