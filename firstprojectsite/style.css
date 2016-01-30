@@ -13,7 +13,12 @@
 .navbar-fixed-top{
 	height:80px;
 }
-
+.navbar-nav{
+	height:80px;
+}
+.navbut{
+	height:80px;
+}
 .sidebar-title{
 	text-align: center;
 	margin-right:20%;
