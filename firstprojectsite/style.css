@@ -13,11 +13,9 @@
 .navbar-fixed-top{
 	height:80px;
 }
-.navbar-nav{
-	height:80px;
-}
-.navbut{
-	height:80px;
+
+.navbar-nav li a {
+ line-height: 51.875px;
 }
 .sidebar-title{
 	text-align: center;
