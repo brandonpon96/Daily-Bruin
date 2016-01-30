@@ -1,3 +1,17 @@
+
+.button{
+	width: 80%;
+	min-width: 150px;
+	max-width: 200px;
+}
+
+.section-title{
+	text-align: center;
+	}
+
+.body-text{
+	text-align:center
+}
 #myCarousel{
 	height: 550px;
 }
@@ -9,4 +23,3 @@
 	min-width: 150px;
 	max-width: 200px;
 }
-
