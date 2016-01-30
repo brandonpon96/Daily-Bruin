@@ -38,11 +38,7 @@
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
-.button{
-	width: 80%;
-	min-width: 150px;
-	max-width: 200px;
-}
+
 
 #overlay { 
   color:#fff;
