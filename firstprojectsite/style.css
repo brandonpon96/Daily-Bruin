@@ -1,7 +1,8 @@
 
 
-.jumbotron{
-	background: url(images/cover.jpg) center;
-	background-repeat: no-repeat;
+#myCarousel{
 	height: 550px;
+}
+.carousel-inner > .item > img {
+    margin: 0 auto;
 }
