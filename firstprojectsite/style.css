@@ -6,8 +6,31 @@
 
 }
 
+a.logo-text:link{
+	color: black;
+	text-decoration: none;
+}
+
+/* visited link */
+a.logo-text:visited {
+    color: black;
+    text-decoration: none
+}
+
+/* mouse over link */
+a.logo-text:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+/* selected link */
+a.logo-text:active {
+    color: lightblue;
+    text-decoration: none;
+}
 .section-title{
 	text-align: center;
+	
 }
 
 .navbar-fixed-top{
@@ -22,9 +45,6 @@
 	margin-right:20%;
 }
 
-#logo-text{
-
-}
 .body-text{
 	text-align:left;
 	margin-left: 10%;
