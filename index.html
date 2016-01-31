@@ -1,76 +1,52 @@
 <!doctype html>
 <html>
 <head>
-	<title>Swim Club</title>
-	<meta charset='UTF-8' />
-	<link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.css' rel='stylesheet' type='text/css' />
-	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-	<link href='style.css' rel='stylesheet' type='text/css' />
+  <title>Swim Club</title>
+  <meta charset='UTF-8' />
+  <link href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.1.2/foundation.css' rel='stylesheet' type='text/css' />
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link href='style.css' rel='stylesheet' type='text/css' />
 </head>
 <body>
 
 	<div id="menu">
+		<nav class = "nav navbar-fixed-top" style='background: #FFFFFF'>	
+			<ul class="nav nav-tabs pull-left">
+				<li class="active"><a data-toggle="tab" href="#home"><i class="fa fa-home fa-lg"></i></a></li>
+				<li><a data-toggle="tab" href="#roster">Roster</a></li>
+				<li><a data-toggle="tab" href="#staff">Staff</a></li>
+			</ul>		
+		</nav>
+	</div>
 
-		<nav class="navbar navbar-default navbar-fixed-top">
+	<div id="overlay" style="display:none;">
+		<h1>UCLA Swim Club</h1>
+	</div>
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<!--<li data-target="#myCarousel" data-slide-to="3"></li>-->
+		</ol>
 
-			<div class="container-fluid">
-
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-
-					<div class="medium-4 columns">
-						<a class="navbar-brand active" href="index.html">
-							<img alt="Brand" src="images/header_logo.png" id="logo">
-						</a>
-					</div>
-					<div class="medium-8 columns">
-
-						<a class="logo-text" href="index.html"><h2 ><strong>SWIM</strong></h2></a>
-					</div>
-				</div>
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li class="navbut active"><a data-toggle="tab" href="#home" class="navbut">HOME</a></li>
-						<li class="navbut"><a data-toggle="tab" href="#roster" class="navbut">ROSTER <span class="sr-only">(current)</span></a></li>
-						<li class="navbut"><a data-toggle="tab" href="#staff" class="navbut">STAFF</a></li>
-					</ul>
-
-				</div>
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active">
+				<img src="images/cover.jpg" alt="cover">
 			</div>
-		</div>
 
-	</nav>
-</div>
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-	<!-- Indicators -->
-	<ol class="carousel-indicators">
-		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		<li data-target="#myCarousel" data-slide-to="1"></li>
-		<li data-target="#myCarousel" data-slide-to="2"></li>
-		<!--<li data-target="#myCarousel" data-slide-to="3"></li>-->
-	</ol>
+			<div class="item">
+				<img src="images/one.jpg" alt="one">
+			</div>
 
-	<!-- Wrapper for slides -->
-	<div class="carousel-inner" role="listbox">
-		<div class="item active">
-			<img src="images/cover.jpg" alt="cover">
-		</div>
-
-		<div class="item">
-			<img src="images/one.jpg" alt="one">
-		</div>
-
-		<div class="item">
-			<img src="images/two.jpg" alt="two">
-		</div>
+			<div class="item">
+				<img src="images/two.jpg" alt="two">
+			</div>
 
 			<!--<div class="item">
 				<img src="img_flower2.jpg" alt="Flower">
@@ -159,45 +135,35 @@
 					CHEN, JACK <br>
 					Chu, Timothy <br>
 					
-				</div>
-				<div class="col-md-4">
-					<p>Chung, Deanna <br>
-						Corona, Corazon <br>
-						Cummings, Kaitlin <br>
-						Dickerson, Brittany <br>
-						Elsanadi, Rachel <br>
-						GALLUZZI, ALESSIO <br>
-						Halsted, Patrick <br>
-						Hu, Carson <br>
-						Hua, Jason <br>
-						Huang, Kevin <br>
-						Hwang, Colin
-						Jao, Timothy</p>
-					</div>
+			</div>
+			<div class="col-md-4">
+				<p>Chung, Deanna <br>
+					Corona, Corazon <br>
+					Cummings, Kaitlin <br>
+					Dickerson, Brittany <br>
+					Elsanadi, Rachel <br>
+					GALLUZZI, ALESSIO <br>
+					Halsted, Patrick <br>
+					Hu, Carson <br>
+					Hua, Jason <br>
+					Huang, Kevin <br>
+					Hwang, Colin
+					Jao, Timothy</p>
+			</div>
 
-				</div>
-				<div id="staff" class="tab-pane fade">
-					<div id="coach-tab-content">
-						<h3> HEAD COACH </h3>
-						<hr>
-						<div "row" id="head=coach">
-
-							<div class="medium-3 columns">
-								<img src="images/coach.jpg">
-							</div>
-							<div class="medium-9 columns">
-								<h4>BIOGRAPHY</h4>
-								<p>Yo dog i'm a cool guy coaching is so great! Yo dog i'm a cool guy coaching is so great! Yo dog i'm a cool guy coaching is so great! Yo dog i'm a cool guy coaching is so great! Yo dog i'm a cool guy coaching is so great! Yo dog i'm a cool guy coaching is so great! Yo dog i'm a cool guy coaching is so great! Yo dog i'm a cool guy coaching is so great! Yo dog i'm a cool guy coaching is so great! Yo dog i'm a cool guy coaching is so great! Yo dog i'm a cool guy coaching is so great! </p>
-							</div>
-						</div>
-
-					</div>
-				</div>
+		</div>
+		<div id="staff" class="tab-pane fade">
+			
+			<img src="images/coach.jpg">
+			<h3>Staff</h3>
+			<p>Some content in menu 2.</p>
+		</div>
+	</div>
+	
 
 
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js'></script>
+	<script src='script.js'></script>
 
-				<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js'></script>
-				<script src='script.js'></script>
-
-			</body>
-			</html>
+</body>
+</html>
