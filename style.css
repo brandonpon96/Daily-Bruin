@@ -86,6 +86,11 @@ a.logo-text:active {
 #overlay h1{
 	font-size: 100px;
 }
+
 #roster h2{
 	text-align: center;
 }
+#space {
+	height: 150px;
+}
+
