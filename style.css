@@ -30,7 +30,7 @@ a.logo-text:active {
 }
 .section-title{
 	text-align: center;
-	
+
 }
 
 .navbar-fixed-top{
@@ -40,6 +40,12 @@ a.logo-text:active {
 .navbar-nav li a {
  line-height: 51.875px;
 }
+
+#medium-title{
+ padding-bottom: 0px;
+ padding-top: 29px;
+}
+
 .sidebar-title{
 	text-align: center;
 	margin-right:20%;
@@ -74,7 +80,7 @@ a.logo-text:active {
 	margin-left: 10%;
 	margin-right: 10%;
 }
-#overlay { 
+#overlay {
   color:#fff;
   position:absolute;
   z-index:12;
@@ -93,4 +99,3 @@ a.logo-text:active {
 #space {
 	height: 150px;
 }
-
