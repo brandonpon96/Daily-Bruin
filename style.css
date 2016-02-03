@@ -6,6 +6,43 @@
 
 }
 
+a.logo-text:link{
+	color: black;
+	text-decoration: none;
+}
+
+/* visited link */
+a.logo-text:visited {
+    color: black;
+    text-decoration: none
+}
+
+/* mouse over link */
+a.logo-text:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+/* selected link */
+a.logo-text:active {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.navbar-fixed-top{
+	height:80px;
+}
+
+.navbar-nav li a {
+ line-height: 51.875px;
+}
+
+#medium-title{
+ padding-bottom: 0px;
+ padding-top: 29px;
+}
+
+
 .section-title{
 	text-align: center;
 }
@@ -40,7 +77,7 @@
 }
 
 
-#overlay { 
+#overlay {
   color:#fff;
   position:absolute;
   z-index:12;
@@ -59,4 +96,3 @@
 #space {
 	height: 150px;
 }
-
