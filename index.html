@@ -13,12 +13,38 @@
 <body>
 
 	<div id="menu">
-		<nav class = "nav navbar-fixed-top" style='background: #FFFFFF'>	
-			<ul class="nav nav-tabs pull-left">
-				<li class="active"><a data-toggle="tab" href="#home"><i class="fa fa-home fa-lg"></i></a></li>
-				<li><a data-toggle="tab" href="#roster">Roster</a></li>
-				<li><a data-toggle="tab" href="#staff">Staff</a></li>
-			</ul>		
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="navbar-header show-for-large-up hide-for-small-only hide-for-medium-only">
+					<div class="large-4 columns">
+						<a class="navbar-brand active" href="index.html">
+							<img alt="Brand" src="images/header_logo.png" id="logo" >
+						</a>
+					</div>
+					<div class="large-8 columns">
+						<a class="logo-text" href="index.html"><h2 ><strong>SWIM</strong></h2></a>
+					</div>
+				</div>
+				<div class="navbar-header show-for-medium-only">
+					<a class="navbar-brand" href="index.html" id="medium-title"><strong>UCLA Swim</strong></a>
+				</div>
+				<div class="navbar-header show-for-small-only">
+					<a class="navbar-brand" href="index.html" id="medium-title"><strong>UCLA Swim</strong></a>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="navbut active"><a data-toggle="tab" href="#home" class="navbut">HOME</a></li>
+						<li class="navbut"><a data-toggle="tab" href="#roster" class="navbut">ROSTER <span class="sr-only">(current)</span></a></li>
+						<li class="navbut"><a data-toggle="tab" href="#staff" class="navbut">STAFF</a></li>
+					</ul>
+				</div>
+			</div>
 		</nav>
 	</div>
 
@@ -109,7 +135,7 @@
 					</div>
 					<div class="row-centered">
 						<a href="http://www.amazon.com/s/ref=nb_sb_noss_2?url=search-alias%3Daps&field-keywords=swim" class="button radius">Swim Shop</a>
-					</div> 
+					</div>
 					<div class="row-centered">
 						<a href="http://twitter.com/uclaclubsports" class="button radius">Follow Us</a>
 					</div>
@@ -134,7 +160,7 @@
 					Chen, Stephanie <br>
 					CHEN, JACK <br>
 					Chu, Timothy <br>
-					
+
 			</div>
 			<div class="col-md-4">
 				<p>Chung, Deanna <br>
@@ -153,13 +179,13 @@
 
 		</div>
 		<div id="staff" class="tab-pane fade">
-			
+
 			<img src="images/coach.jpg">
 			<h3>Staff</h3>
 			<p>Some content in menu 2.</p>
 		</div>
 	</div>
-	
+
 
 
 	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.js'></script>
