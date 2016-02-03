@@ -6,44 +6,8 @@
 
 }
 
-a.logo-text:link{
-	color: black;
-	text-decoration: none;
-}
-
-/* visited link */
-a.logo-text:visited {
-    color: black;
-    text-decoration: none
-}
-
-/* mouse over link */
-a.logo-text:hover {
-    color: blue;
-    text-decoration: none;
-}
-
-/* selected link */
-a.logo-text:active {
-    color: lightblue;
-    text-decoration: none;
-}
 .section-title{
 	text-align: center;
-
-}
-
-.navbar-fixed-top{
-	height:80px;
-}
-
-.navbar-nav li a {
- line-height: 51.875px;
-}
-
-#medium-title{
- padding-bottom: 0px;
- padding-top: 29px;
 }
 
 .sidebar-title{
@@ -75,12 +39,8 @@ a.logo-text:active {
     margin: 0 auto;
 }
 
-#coach-tab-content{
-	text-align:left;
-	margin-left: 10%;
-	margin-right: 10%;
-}
-#overlay {
+
+#overlay { 
   color:#fff;
   position:absolute;
   z-index:12;
@@ -99,7 +59,4 @@ a.logo-text:active {
 #space {
 	height: 150px;
 }
-<<<<<<< HEAD:style.css
-=======
 
->>>>>>> master:style.css
