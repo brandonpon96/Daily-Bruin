@@ -1,9 +1,19 @@
 
-.button{
-	width: 80%;
-	min-width: 150px;
-	font-size: 16px;
+.sidebar .button{
 
+	width: 150px;
+	height: 150px;
+	min-width: 150px;
+	border-radius: 50%;
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-left: 85px;
+	margin-top: 10px;
+
+
+}
+.sidebar a{
+	padding-top: 65px;
 }
 
 a.logo-text:link{
@@ -87,12 +97,21 @@ a.logo-text:active {
   text-align:center;
 }
 #overlay h1{
+	font-family: 'Raleway', sans-serif;
 	font-size: 100px;
 }
 
+#coach-tab-content{
+	text-align:left;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 #roster h2{
 	text-align: center;
 }
 #space {
 	height: 150px;
+}
+#coach-divider{
+	color: white;
 }
