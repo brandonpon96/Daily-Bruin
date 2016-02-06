@@ -100,9 +100,17 @@ a.logo-text:active {
 	font-size: 100px;
 }
 
+#coach-tab-content{
+	text-align:left;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 #roster h2{
 	text-align: center;
 }
 #space {
 	height: 150px;
+}
+#coach-divider{
+	color: white;
 }
