@@ -80,7 +80,8 @@ a.logo-text:active {
 }
 
 #myCarousel{
-	height: 550px;
+	margin-top:80px;
+	max-height:550px;
 }
 .carousel-inner > .item > img {
     margin: 0 auto;
