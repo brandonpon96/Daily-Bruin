@@ -1,9 +1,19 @@
 
-.button{
-	width: 80%;
-	min-width: 150px;
-	font-size: 16px;
+.sidebar .button{
 
+	width: 150px;
+	height: 150px;
+	min-width: 150px;
+	border-radius: 50%;
+	font-size: 16px;
+	margin-bottom: 30px;
+	margin-left: 85px;
+	margin-top: 10px;
+
+
+}
+.sidebar a{
+	padding-top: 65px;
 }
 
 a.logo-text:link{
