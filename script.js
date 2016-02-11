@@ -5,6 +5,12 @@ $(document).ready(function(){
         types: ['geocode']
     });
 
+    $('#autocomplete').keydown(function(e) {
+    	if(e.keyCode == 13){
+			console.log($(this).val());
+		}
+	});
+
 });
 
 function initMap() {
